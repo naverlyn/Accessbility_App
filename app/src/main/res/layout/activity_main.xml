@@ -22,18 +22,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:text="Username"/>
+        android:text="@string/username"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/username"
         android:id="@+id/username_text"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"/>
+        android:text="@string/password"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/password"
         android:id="@+id/password"
         android:inputType="textPassword"/>
 

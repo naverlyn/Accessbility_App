@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn_Sign_In: Button = findViewById(R.id.sign_in_btn)
         btn_Sign_In.setOnClickListener({ view ->
-            val moveToDashboard = Intent(this@MainActivity, TabActivity::class.java)
+            val moveToDashboard = Intent(this@MainActivity, Dashboard::class.java)
             startActivity(moveToDashboard)
         })
     }

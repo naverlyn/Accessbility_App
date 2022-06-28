@@ -14,14 +14,19 @@
         android:theme="@style/Theme.AcessbilityApp"
         tools:targetApi="31">
         <activity
-            android:name=".Feedback_Menu"
+            android:name=".Dashboard"
             android:exported="false"
-            android:label="@string/title_activity_feedback_menu"
+            android:label="@string/title_activity_dashboard"
             android:theme="@style/Theme.AcessbilityApp.NoActionBar" />
         <activity
             android:name=".TabActivity"
             android:exported="false"
             android:label="@string/title_activity_tab"
+            android:theme="@style/Theme.AcessbilityApp.NoActionBar" />
+        <activity
+            android:name=".Feedback_Menu"
+            android:exported="false"
+            android:label="@string/title_activity_feedback_menu"
             android:theme="@style/Theme.AcessbilityApp.NoActionBar" />
         <activity
             android:name=".SignUpActivity"
